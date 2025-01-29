@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: ap-coworking-configmap
+  name: coworking-configmap
 data:
   DB_NAME: mydatabase
   DB_USERNAME: myuser
@@ -14,4 +14,4 @@ metadata:
   name: ap-psql-pass
 type: Opaque
 data:
-  password: bXlwYXNzd29yZA==
+  password: echo -n '1f2d1e2e67df' | base64==
