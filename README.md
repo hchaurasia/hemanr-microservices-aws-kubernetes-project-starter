@@ -18,7 +18,7 @@ This Coworking Space Service Extension project deploys a analytics code to demo 
     2. Cluster Node Group : ms-node-grp
     3. ECR Repository : coworkingrepo
     4. AWS Codebuild Project : coworkingcodebuild
-    6. Github Repository : https://github.com/hchaurasia/hemanr-microservices-aws-kubernetes-project-starter
+    
 
 # Process to deploy a new application version.
     1. Ensure the Codebuild pipeline is triggered against the latest version and a new docker image is available in ECR registry.
@@ -39,4 +39,5 @@ This Coworking Space Service Extension project deploys a analytics code to demo 
     8. All Kubernetes config files used for deployment (ie YAML files)
     9. Screenshot of AWS CloudWatch logs for the application((CloudWatch_Logs.png))
     10. curl a7895d18f655948faadcea43c8c484de-1808627719.us-east-1.elb.amazonaws.com:5153/api/reports/daily_usage
-    10. README.md 
+    11. Github Repository : https://github.com/hchaurasia/hemanr-microservices-aws-kubernetes-project-starter
+    12. README.md 
